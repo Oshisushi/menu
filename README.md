@@ -22,12 +22,12 @@
       overflow-x: hidden;
     }
     .header {
-  background-image: url('https://i.postimg.cc/y8nF6LWy/header-bg.jpg');
+  background-image: url('https://i.postimg.cc/pXCwxtQG/8000000-01.jpg');
   background-repeat: no-repeat;
   background-position: top center;
-  background-size: contain;
+  background-size: cover;
   background-color: #000;
-  height: 60vh;
+  height: 100vh;
   background-attachment: scroll;
 }
     .section {
