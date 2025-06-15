@@ -14,8 +14,8 @@
       width: 100%;
       height: 100%;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: linear-gradient(#1a1a1a 50%, #f5f5dc 50%);
-      color: #1a1a1a;
+      background-color: #3a3a39;
+      color: #f5f5dc;
       text-align: center;
     }
     body {
@@ -32,7 +32,7 @@
   width: 100%;
 }
     .section {
-      background-color: rgba(26, 26, 26, 0.85);
+      background-color: #3a3a39;
       margin: 20px auto;
       padding: 20px;
       border-radius: 12px;
@@ -52,7 +52,7 @@
       gap: 8px;
       padding: 12px 20px;
       margin: 6px;
-      background-color: #2c2c2c;
+      background-color: #3a3a39;
       color: #f5f5dc;
       text-decoration: none;
       border-radius: 8px;
@@ -61,7 +61,7 @@
       flex-wrap: nowrap;
     }
     a.button:hover {
-      background-color: #3a3a3a;
+      background-color: #3a3a39;
     }
     a.button img {
       width: 18px;
@@ -90,7 +90,7 @@
 
   <div class="section">
     <h2>🛵 Order on Talabat</h2>
-    <p style="color: #1a1a1a; font-size: 14px;">We are available on <strong>Talabat App</strong>. Search for "Oshi Sushi" and order now!</p>
+    <p style="color: #f5f5dc; font-size: 14px;">We are available on <strong>Talabat App</strong>. Search for "Oshi Sushi" and order now!</p>
     <a class="button" href="https://www.talabat.com/egypt" target="_blank">Open Talabat</a>
   </div>
 
