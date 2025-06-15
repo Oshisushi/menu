@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <title>Oshi Sushi Menu</title>
   <style>
     * {
@@ -12,11 +12,14 @@
       margin: 0;
       padding: 0;
       width: 100%;
-      min-height: 100vh;
+      height: 100%;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       background-color: #111;
       color: #fff;
       text-align: center;
+    }
+    body {
+      overflow-x: hidden;
     }
     .header {
       background-image: url('https://i.postimg.cc/yxhLLVdm/Untitled-2-01.jpg');
@@ -77,18 +80,26 @@
       .header {
         min-height: 60vh;
         background-size: cover;
+        padding: 15px;
       }
       .header h1 {
-        font-size: 28px;
-        padding: 15px 20px;
+        font-size: 24px;
+        padding: 12px 16px;
+      }
+      .section {
+        padding: 20px;
       }
       h2 {
-        font-size: 22px;
+        font-size: 20px;
       }
       a.button {
-        padding: 12px 20px;
-        font-size: 16px;
+        padding: 10px 16px;
+        font-size: 14px;
         flex-direction: row;
+      }
+      a.button img {
+        width: 18px;
+        height: 18px;
       }
     }
   </style>
