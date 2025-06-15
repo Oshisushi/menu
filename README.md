@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -24,11 +24,12 @@
     .header {
   background-image: url('https://i.postimg.cc/jSNyPR8v/8000000-01-01.jpg');
   background-repeat: no-repeat;
-  background-position: top center;
-  background-size: cover;
+  background-position: center center;
+  background-size: 100% auto;
   background-color: #000;
-  height: 100vh;
-  background-attachment: scroll;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  width: 100%;
 }
     .section {
       background-color: rgba(0, 0, 0, 0.75);
