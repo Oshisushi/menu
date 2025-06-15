@@ -22,7 +22,7 @@
       overflow-x: hidden;
     }
     .header {
-      background-image: url('https://i.postimg.cc/yxhLLVdm/Untitled-2-01.jpg');
+      background-image: url('https://oshisushi.github.io/oshi-sushi-menu/Perfect%20Alaska%20Roll%20Sushi%20Guide.jpeg');
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
