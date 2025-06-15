@@ -22,15 +22,9 @@
       overflow-x: hidden;
     }
     .header {
-  background-image: url('https://i.postimg.cc/xTx3Q081/Untitled-2-01.png');
   background-color: #3a3a39;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: 200px auto;
-  background-color: #3a3a39;
-  height: 160px;
-  
   width: 100%;
+  overflow: hidden;
 }
     .section {
       background-color: #3a3a39;
@@ -71,7 +65,9 @@
   </style>
 </head>
 <body>
-  <div class="header" aria-hidden="true"></div>
+  <div class="header">
+  <img src="https://i.postimg.cc/zDy5ZHWc/Untitled-3-01.jpg" alt="Header Image" style="width: 100%; height: auto; display: block;" />
+</div>
 
   <div class="section">
     <h2>📄 Food Menu</h2>
