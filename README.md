@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -13,25 +14,25 @@
       width: 100%;
       height: 100%;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #111;
-      color: #fff;
+      background: linear-gradient(#1a1a1a 50%, #f5f5dc 50%);
+      color: #1a1a1a;
       text-align: center;
     }
     body {
       overflow-x: hidden;
     }
     .header {
-  background-image: url('https://i.postimg.cc/CKhd509R/Untitled-2-01.jpg');
+  background-image: url('https://i.postimg.cc/xTx3Q081/Untitled-2-01.png');
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: 100% auto;
+  background-size: contain;
   background-color: #000;
-  height: auto;
-  aspect-ratio: 16 / 9;
+  height: 200px;
+  
   width: 100%;
 }
     .section {
-      background-color: rgba(0, 0, 0, 0.75);
+      background-color: rgba(26, 26, 26, 0.85);
       margin: 20px auto;
       padding: 20px;
       border-radius: 12px;
@@ -51,7 +52,7 @@
       gap: 8px;
       padding: 12px 20px;
       margin: 6px;
-      background-color: #222;
+      background-color: #2c2c2c;
       color: #f5f5dc;
       text-decoration: none;
       border-radius: 8px;
@@ -60,7 +61,7 @@
       flex-wrap: nowrap;
     }
     a.button:hover {
-      background-color: #444;
+      background-color: #3a3a3a;
     }
     a.button img {
       width: 18px;
@@ -89,7 +90,7 @@
 
   <div class="section">
     <h2>🛵 Order on Talabat</h2>
-    <p style="color: #f5f5dc; font-size: 14px;">We are available on <strong>Talabat App</strong>. Search for "Oshi Sushi" and order now!</p>
+    <p style="color: #1a1a1a; font-size: 14px;">We are available on <strong>Talabat App</strong>. Search for "Oshi Sushi" and order now!</p>
     <a class="button" href="https://www.talabat.com/egypt" target="_blank">Open Talabat</a>
   </div>
 
