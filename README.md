@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
-  <title></title>
+  <title>Menu</title>
   <style>
     * {
       box-sizing: border-box;
@@ -22,17 +22,14 @@
       overflow-x: hidden;
     }
     .header {
-      background-image: url('https://i.postimg.cc/y8nF6LWy/header-bg.jpg');
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-      height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: #e0d8c3;
-      padding: 10px;
-    }
+  background-image: url('https://i.postimg.cc/y8nF6LWy/header-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  background-color: #000;
+  height: 60vh;
+  background-attachment: scroll;
+}
     .section {
       background-color: rgba(0, 0, 0, 0.75);
       margin: 20px auto;
