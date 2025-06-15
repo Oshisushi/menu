@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
   <title>Oshi Sushi Menu</title>
   <style>
     * {
@@ -26,46 +26,46 @@
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
-      min-height: 100vh;
+      height: 60vh;
       display: flex;
       align-items: center;
       justify-content: center;
       color: #e0d8c3;
-      padding: 20px;
+      padding: 10px;
     }
     .header h1 {
       background-color: rgba(0, 0, 0, 0.6);
-      padding: 20px 40px;
-      border-radius: 12px;
-      font-size: 40px;
-      letter-spacing: 2px;
+      padding: 15px 20px;
+      border-radius: 10px;
+      font-size: 24px;
+      letter-spacing: 1px;
     }
     .section {
       background-color: rgba(0, 0, 0, 0.75);
-      margin: 30px auto;
-      padding: 30px;
-      border-radius: 16px;
-      max-width: 1000px;
-      width: 90%;
-      box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 12px;
+      max-width: 95%;
+      width: 95%;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
     }
     h2 {
       color: #f5f5dc;
-      font-size: 26px;
-      margin-bottom: 20px;
+      font-size: 20px;
+      margin-bottom: 15px;
     }
     a.button {
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      gap: 10px;
-      padding: 14px 30px;
-      margin: 10px;
+      gap: 8px;
+      padding: 12px 20px;
+      margin: 6px;
       background-color: #222;
       color: #f5f5dc;
       text-decoration: none;
-      border-radius: 10px;
-      font-size: 18px;
+      border-radius: 8px;
+      font-size: 15px;
       transition: all 0.3s ease;
       flex-wrap: nowrap;
     }
@@ -73,40 +73,14 @@
       background-color: #444;
     }
     a.button img {
-      width: 22px;
-      height: 22px;
-    }
-    @media (max-width: 768px) {
-      .header {
-        min-height: 60vh;
-        background-size: cover;
-        padding: 15px;
-      }
-      .header h1 {
-        font-size: 24px;
-        padding: 12px 16px;
-      }
-      .section {
-        padding: 20px;
-      }
-      h2 {
-        font-size: 20px;
-      }
-      a.button {
-        padding: 10px 16px;
-        font-size: 14px;
-        flex-direction: row;
-      }
-      a.button img {
-        width: 18px;
-        height: 18px;
-      }
+      width: 18px;
+      height: 18px;
     }
   </style>
 </head>
 <body>
   <div class="header">
-    <h1>Oshi Sushi Menu<br /><span style='font-size: 18px; display: block; margin-top: 10px;'>Discover the Art of Sushi</span></h1>
+    <h1>Oshi Sushi Menu<br /><span style='font-size: 14px; display: block; margin-top: 6px;'>Discover the Art of Sushi</span></h1>
   </div>
 
   <div class="section">
@@ -127,7 +101,7 @@
 
   <div class="section">
     <h2>🛵 Order on Talabat</h2>
-    <p style="color: #f5f5dc; font-size: 18px;">We are available on <strong>Talabat App</strong>. Search for "Oshi Sushi" and order now!</p>
+    <p style="color: #f5f5dc; font-size: 14px;">We are available on <strong>Talabat App</strong>. Search for "Oshi Sushi" and order now!</p>
     <a class="button" href="https://www.talabat.com/egypt" target="_blank">Open Talabat</a>
   </div>
 
