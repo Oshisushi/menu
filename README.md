@@ -23,11 +23,12 @@
     }
     .header {
   background-image: url('https://i.postimg.cc/xTx3Q081/Untitled-2-01.png');
+  background-color: #3a3a39;
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: contain;
-  background-color: #000;
-  height: 200px;
+  background-size: 200px auto;
+  background-color: #3a3a39;
+  height: 160px;
   
   width: 100%;
 }
