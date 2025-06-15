@@ -22,7 +22,7 @@
       overflow-x: hidden;
     }
     .header {
-  background-image: url('https://i.postimg.cc/jSNyPR8v/8000000-01-01.jpg');
+  background-image: url('https://i.postimg.cc/CKhd509R/Untitled-2-01.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 100% auto;
