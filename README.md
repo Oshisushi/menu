@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
-  <title>Oshi Sushi Menu</title>
+  <title>Oshi Sushi</title>
   <style>
     * {
       box-sizing: border-box;
@@ -26,19 +26,12 @@
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
-      height: 60vh;
+      height: 100vh;
       display: flex;
       align-items: center;
       justify-content: center;
       color: #e0d8c3;
       padding: 10px;
-    }
-    .header h1 {
-      background-color: rgba(0, 0, 0, 0.6);
-      padding: 15px 20px;
-      border-radius: 10px;
-      font-size: 24px;
-      letter-spacing: 1px;
     }
     .section {
       background-color: rgba(0, 0, 0, 0.75);
@@ -79,9 +72,7 @@
   </style>
 </head>
 <body>
-  <div class="header">
-    <h1>Oshi Sushi Menu<br /><span style='font-size: 14px; display: block; margin-top: 6px;'>Discover the Art of Sushi</span></h1>
-  </div>
+  <div class="header"></div>
 
   <div class="section">
     <h2>📄 Food Menu</h2>
